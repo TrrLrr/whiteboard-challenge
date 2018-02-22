@@ -10,8 +10,18 @@ function concat(arr1, arr2) {
   for(var i = 0; i < arr2.length; i++){
     res.push(arr2[i]);
   }
-  console.log(res.sort(function(a,b) { return a-b}));
-  return res.sort(function(a,b) { return a-b});
+  console.log('res before sort:', res);
+  let sortedArr = [];
+
+  
+  while(res.length) {
+    var low = Math.min.apply(null, res);
+    sortedArr.push(low);
+    res.splice(res.indexOf(low), 1);
+  }
+  
+  console.log('final result:', sortedArr );
+  return sortedArr;
 }
 
 let one = [3,7,1,6];
