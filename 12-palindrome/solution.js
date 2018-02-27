@@ -1,6 +1,6 @@
 'use strict';
 
-function isPalindrome(ll) {
+module.exports = function(ll) {
   let array = [];
   let current = ll;
 
@@ -8,35 +8,9 @@ function isPalindrome(ll) {
     array.push(current.val);
     current = current.next
   }
-
-  console.log(array);
-  console.log(array.reverse());
-  console.log(array === array.reverse());
   return array === array.reverse();
-
 }
 
-let list = {
-  val: 1,
-  next: {
-    val: 2, 
-    next: {
-      val: 3,
-      next: {
-        val: 4,
-        next: {
-          val: 3, 
-          next: {
-            val: 2, 
-            next: {
-              val:1,
-              next: null
-            }
-          }
-        }
-      }
-    }
-  }
-}
+  
 
-isPalindrome(list);
+
