@@ -1,0 +1,12 @@
+{
+  "name": "12-palindrome",
+  "version": "1.0.0",
+  "description": "Create a function that will accept a linked list as it's input.  Your function should determine if the linked list is a palindrome.  If it is, `return true`. If it is not `return false`.",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
