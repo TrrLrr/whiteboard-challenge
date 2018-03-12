@@ -1,0 +1,16 @@
+{
+  "name": "13-reverse-list",
+  "version": "1.0.0",
+  "description": "Create a function that will accept a linked list as it's input.  Your function should return the linked list in a reversed order and each node should still being interconnected.",
+  "main": "solution.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
