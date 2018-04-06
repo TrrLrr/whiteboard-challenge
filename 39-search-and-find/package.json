@@ -1,0 +1,15 @@
+{
+  "name": "39-search-and-find",
+  "version": "1.0.0",
+  "description": "",
+  "main": "soulution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.4.3"
+  }
+}
